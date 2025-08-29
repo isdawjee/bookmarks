@@ -97,5 +97,14 @@ STATIC_URL = "static/"
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
+
+# Authentication framework callback urls
+LOGIN_REDIRECT_URL = "dashboard"
+
+LOGIN_URL = "login"
+
+LOGOUT_URL = "logout"
+
+
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
